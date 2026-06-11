@@ -1,0 +1,14 @@
+#ifndef USB_DESCRIPTORS_H
+#define USB_DESCRIPTORS_H
+
+#include "tusb.h"
+
+enum {
+    REPORT_ID_MOUSE = 1,
+    REPORT_ID_KEYBOARD,
+    REPORT_ID_CONSUMER_CONTROL,
+    REPORT_ID_GAMEPAD,
+    REPORT_ID_COUNT
+};
+
+#endif
